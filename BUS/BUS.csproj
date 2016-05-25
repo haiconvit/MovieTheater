@@ -30,7 +30,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,7 +44,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinhChonPhimBus.cs" />
+    <Compile Include="CaChieuPhimBus.cs" />
+    <Compile Include="EntityHelper.cs" />
+    <Compile Include="GiaVeBus.cs" />
+    <Compile Include="HoaDonBus.cs" />
+    <Compile Include="LapBaoCaoBus.cs" />
+    <Compile Include="LoaiNguoiDungBus.cs" />
+    <Compile Include="LoaiThoiGianBus.cs" />
+    <Compile Include="NguoiDungBus.cs" />
+    <Compile Include="PhimBus.cs" />
+    <Compile Include="PhongChieuPhimBus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RapChieuPhimBus.cs" />
+    <Compile Include="SuatChieuBus.cs" />
+    <Compile Include="TheLoaiPhimBus.cs" />
+    <Compile Include="VeBus.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{E8001B26-1CCC-45D0-B775-6BF04DFEEA7B}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

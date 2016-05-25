@@ -97,6 +97,12 @@
     <Compile Include="RapChieuPhim.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
     <Compile Include="SuatChieu.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>

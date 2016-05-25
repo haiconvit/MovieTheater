@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MovieTheater.Form;
 
 namespace MovieTheater
 {
@@ -16,7 +17,7 @@ namespace MovieTheater
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmHome());
+            Application.Run(new Main());
         }
     }
 }
