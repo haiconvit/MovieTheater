@@ -4,6 +4,7 @@ using System.Configuration;
 
 namespace DAO
 {
+// note
     public class DataProvider
     {
         private static readonly string ConStr = ConfigurationManager.ConnectionStrings["QLRapPhim"].ConnectionString;
